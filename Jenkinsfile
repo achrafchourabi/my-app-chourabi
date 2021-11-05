@@ -22,5 +22,15 @@ url: 'https://github.com/achrafchourabi/my-app-chourabi.git' ]]])
 }
 }
 }
+stage('build')
+steps{
+
+script {
+
+sh "Ansible-playbook ansible/build.yml -i Ansible/inventory/host.yml "
+
+}
+}
+
 }
 }
