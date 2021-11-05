@@ -3,5 +3,5 @@
 - name: build app
   command: ng build --prod
   environment:
-    PATH: /root/.nvm/versions/node/v12.22.7/lib/node_modules/@angular/cli/bin/
+    PATH: /root/.npm-packages/bin:/root/.npm-global/bin:/root/.nvm/versions/node/v12.22.7/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
   
