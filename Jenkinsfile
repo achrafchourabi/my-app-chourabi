@@ -22,6 +22,20 @@ url: 'https://github.com/achrafchourabi/my-app-chourabi.git' ]]])
 }
 }
 }
+stage('npm') {
+
+   steps {
+   
+   script {
+
+sh "npm install"
+
+
+
+}
+}
+}
+
 stage('build') {
 steps{
 
