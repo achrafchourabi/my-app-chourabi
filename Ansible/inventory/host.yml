@@ -5,4 +5,5 @@ localhost
 
 [Server:vars]
 ansible_python_interpreter= /usr/bin/python2.7
-ansi_user= linux2
+ansible_user=Ubuntu 16   
+ansible_become_pass=root
