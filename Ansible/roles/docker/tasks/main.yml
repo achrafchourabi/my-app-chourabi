@@ -4,7 +4,7 @@
   docker_image:
     name: devops
     build: /root/my-app-chourabi/Dockerfile
-     name: /var/lib/jenkins/workspace/devops
+     path: /var/lib/jenkins/workspace/devops
      pull: no
     state: present
     force_source: true
