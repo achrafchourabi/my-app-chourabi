@@ -10,27 +10,11 @@
     state: present
     force_source: true
 
-- name: "docker container"
+- name: docker container
   docker_container:
-    name: "{{my_app_chourabi_container}}"
+    name: my_app_chourabi_container
     image: devops:latest
     state: started
     recreate: true
     ports:
      - "4200:80"
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
