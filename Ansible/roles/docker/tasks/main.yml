@@ -3,8 +3,8 @@
 - name: create image docker
   docker_image:
     name: devops
-    build: "{{}}"
-     path: /var/lib/jenkins/workspace/devops
+    build: 
+     path: "/var/lib/jenkins/workspace/devops"
      pull: no
     state: present
     force_source: true
