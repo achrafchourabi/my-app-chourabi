@@ -4,7 +4,6 @@
   docker_image:
     name: devops
     build: /root/my-app-chourabi/Dockerfile 
-     pull: no
     state: present
     force_source: true
 
