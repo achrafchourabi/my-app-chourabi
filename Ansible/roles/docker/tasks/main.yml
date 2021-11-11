@@ -3,7 +3,10 @@
 - name: create image docker
   docker_image:
     name: devops
-    build: /root/my-app-chourabi/Dockerfile 
+    build:
+     path: /var/lib/jenkins/workspace/devops
+     pull: no
+    source: build 
     state: present
     force_source: true
 
