@@ -1,0 +1,8 @@
+---
+# tasks file for docker-registry
+- name: Tag and push to docker hub
+  docker_image:
+    name: ash92/devops_chourabi:angularappCD
+    repository: ash92/devops_chourabi
+    tag: angularappCD
+    push: yes
